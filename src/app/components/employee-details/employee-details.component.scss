@@ -1,0 +1,67 @@
+@import '../../../assets/variables.scss';
+
+.emp-details-popup {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background: $white;
+  -webkit-box-shadow: 0px 1px 7px 2px rgba(143, 139, 143, 1);
+  -moz-box-shadow: 0px 1px 7px 2px rgba(143, 139, 143, 1);
+  box-shadow: 0px 1px 7px 2px rgba(143, 139, 143, 1);
+
+  .emp-details-header {
+    height: 240px;
+    width: 100%;
+    position: relative;
+    background: #E3E3E3;
+
+    img {
+      height: 140px;
+      width: 140px;
+      margin: auto;
+      padding: 50px 0;
+      display: block;
+      border-radius: 50%;
+    }
+
+    .emp-details-close {
+      position: absolute;
+      right: 20px;
+      height: 50px;
+      font-weight: bold;
+      top: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .emp-details-row {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid $gray-2;
+    padding: 8px;
+
+    .left {
+      flex: 1;
+      padding-left: 40px;
+      color: $gray-1;
+    }
+
+    .right {
+      flex: 1;
+      padding-right: 20px;
+      color: $black;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .emp-details-popup {
+    height: 80vh;
+    width: 400px;
+  }
+}

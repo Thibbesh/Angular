@@ -1,0 +1,47 @@
+{
+    "count": 6,
+    "employees": [
+        {
+            "name":"Caroline Heijman",
+            "gender":"Female",
+            "role":"Product Owner",
+            "work":"Werkt het liefst aan Product Owner"
+
+        },
+        {
+            "name":"Saskia potter",
+            "gender":"Female",
+            "role":"Product Owner",
+            "work":"Werkt het liefst aan Product Owner"
+
+        },
+        {
+            "name":"Laurien",
+            "gender":"Female",
+            "role":"Business Analysit",
+            "work":"Werkt het liefst aan Business Analysit"
+
+        },
+        {
+            "name":"Eline Frances",
+            "gender":"Female",
+            "role":"Project Manager",
+            "work":"Werkt het liefst aan Project Manager"
+
+        },
+        {
+            "name":"Bob Heartsink",
+            "gender":"Male",
+            "role":"Information Analysit",
+            "work":"Werkt het liefst aan Information Analysit"
+
+        },
+        {
+            "name":"Marc Guyt",
+            "gender":"Male",
+            "role":"Project Manager",
+            "work":"Werkt het liefst aan Project Manager"
+
+        }
+    ]
+}

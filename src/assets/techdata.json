@@ -1,0 +1,47 @@
+{
+    "count": 6,
+    "employees": [
+        {
+            "name":"Sander Bruggerman",
+            "gender":"male",
+            "role":"Front-end Engineer",
+            "work":"Werkt het liefst aan mobiele-en webapplicaties"
+
+        },
+        {
+            "name":"Nick Bolink",
+            "gender":"male",
+            "role":"Front-end Engineer",
+            "work":"Werkt het liefst aan mobiele"
+
+        },
+        {
+            "name":"Max Derneden",
+            "gender":"male",
+            "role":"Office Manager",
+            "work":"Werkt het liefst aan Office Manager"
+
+        },
+        {
+            "name":"Rosanne Geersten",
+            "gender":"Female",
+            "role":"UX-desiner",
+            "work":"Werkt het liefst aan UX designer"
+
+        },
+        {
+            "name":"Zillah Calle",
+            "gender":"Female",
+            "role":"Fullstack-Developer",
+            "work":"Werkt het liefst aan Java en Angular"
+
+        },
+        {
+            "name":"Timo Wentink",
+            "gender":"Male",
+            "role":"UX-designer",
+            "work":"Werkt het liefst aan UX designer"
+
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+<div class="emp-list-container">
+    <div *ngFor="let employee of employeeList">
+        <div class=" emp-card" (click)="openDetails(employee)">
+            <div class="emp-card-top">
+
+            </div>
+            <div class="emp-card-bottom">
+                <div class="emp-img">
+                    <img src="../assets/images/2.jpg">
+                </div>
+                <div class="emp-info">
+                    <div class="emp-name">
+                        {{employee.name}}
+                    </div>
+                    <div class="emp-role">
+                        {{employee.role}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-employee-details *ngIf="showDetails" [details]="selectedEmployee" (close)="closeDetails()">
+</app-employee-details>
